@@ -12,7 +12,7 @@ const Cart = (props) => {
     return (
         // started cart list
         <div className='main-cart'>
-            <h2>Troops Count:{cart.length}</h2>
+            <h2><i class="fas fa-user-friends"></i>Troops Count:{cart.length}</h2>
             <h2>Total Cost: ৳ {total}</h2>
             <ul>
                 {
