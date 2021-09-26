@@ -1,6 +1,6 @@
 # Getting Started with Our Super Heroes
 
-This project was javascript react with [Create React App](https://github.com/facebook/create-react-app).
+This project was javascript react with [Our Super Heroes](https://our-super-heroes.netlify.app/).
 
 ## Available Scripts
 - JS Orient CSS and a little html have been used to create the website.
