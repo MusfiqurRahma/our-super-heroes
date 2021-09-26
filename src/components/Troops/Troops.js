@@ -8,11 +8,11 @@ const Troops = (props) => {
         <div className='troops-container'>
             {/* display all data */}
             <img src={img} alt="" />
-            <h5>Name: {name}</h5>
-            <h5>Age: {age}</h5>
-            <h5>Role: {role}</h5>
-            <h5>Salary: ৳{salary}</h5>
-            <h5>Country: {country}</h5>
+            <h4>Name: {name}</h4>
+            <h4>Age: {age}</h4>
+            <h4>Role: {role}</h4>
+            <h4>Salary: ৳{salary}</h4>
+            <h4>Country: {country}</h4>
             {/* using btn and icon */}
             <button onClick={() => props.handleBtnTroops(props.team)} className='regular-btn'><i class="fas fa-cart-plus cart-icon"></i> Add To Cart</button> <br />
             <div className='contact-icon'>
