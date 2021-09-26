@@ -13,7 +13,6 @@ const Troops = (props) => {
             <h5>Role: {role}</h5>
             <h5>Salary: ৳{salary}</h5>
             <h5>Country: {country}</h5>
-            
             {/* using btn and icon */}
             <button onClick={() => props.handleBtnTroops(props.team)} className='regular-btn'><i class="fas fa-cart-plus cart-icon"></i> Add To Cart</button> <br />
             <div className='contact-icon'>
