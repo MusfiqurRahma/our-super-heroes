@@ -8,6 +8,8 @@ const Header = () => {
             <h1><i class="fas fa-dove"></i> Bravy United Nations Peacekeeping Team</h1>
             <h4>We are the UN peacekeeping team. Our ideal is to establish peace at home and abroad. As Bangladeshis, we are always ready to maintain peace,Bravo!!!</h4>
             <h2>TOTAL BUDGET: 169 MILLION</h2>
+            
+            {/* navbar started here */}
             <nav>
                 <a href="/home">Home</a>
                 <a href="/special">Speical</a>

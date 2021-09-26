@@ -4,11 +4,13 @@ import './Cart.css';
 const Cart = (props) => {
     const { cart } = props;
 
+    // total amount count
     let total = 0;
     for (const team of cart) {
         total = total + team.salary;
     }
     return (
+        // started cart list
         <div className='main-cart'>
             <h2>Troops Count:{cart.length}</h2>
             <h2>Total Cost: ৳ {total}</h2>

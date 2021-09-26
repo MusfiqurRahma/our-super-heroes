@@ -13,6 +13,7 @@ const Team = () => {
             .then(res => res.json())
             .then(data => setTeams(data))
     }, []);
+    // btn handler
     const handleBtnTroops = team =>{
         const newCart = [...cart, team];
         setCart(newCart)
